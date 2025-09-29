@@ -24,9 +24,10 @@
     "hardhat"
   ],
   "dependencies": {
-    "encrypted-types": "^0.0.4",
     "@fhevm/solidity": "^0.8.0",
-    "@zama-fhe/oracle-solidity": "^0.1.0"
+    "@openzeppelin/confidential-contracts": "https://gitpkg.vercel.app/OpenZeppelin/openzeppelin-confidential-contracts/contracts?chore/migrate-0.2-0.8.0",
+    "@zama-fhe/oracle-solidity": "^0.1.0",
+    "encrypted-types": "^0.0.4"
   },
   "devDependencies": {
     "@fhevm/hardhat-plugin": "^0.1.0",
