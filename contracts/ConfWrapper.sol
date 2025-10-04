@@ -34,7 +34,7 @@ interface IWeth {
 }
 
 /**
- * @title  ConfWrap
+ * @title  ConfWrapper
  * @notice This contract governs the pair created in the AMM, minting of liquidity of a ERC20 to ERC7984 pair,
  * at fixed rate of 1, i.e. 1 WETH = 1 ERC7984 token.
  * Based on the ConfidentialFungibleTokenERC20Wrapper
